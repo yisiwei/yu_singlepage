@@ -86,8 +86,8 @@ header {
   float: left;
   width: 100%;
   padding: 30px 0 22px 0;
-  border-bottom: 6px solid rgba(186,154,87, 0.63);
-  background: white;
+  border-bottom: 6px solid #7c2e00;
+  background: url(../imgs/menu_bg.jpg) repeat-x !important;
 }
 header a.logo {
   font-size: 1.875em;
@@ -122,17 +122,16 @@ header nav ul li {
   margin: 0 0 0 33px;
 }
 header nav ul li:hover a {
-  color: #BA9A57;
+  color: #000;
 }
 header nav ul li.selected a {
   font-weight: bolder;
-  color: #BA9A57;
 }
 header nav ul li a {
   font-weight: bolder;
   letter-spacing: -1px;
   font-size: 1.125em;
-  color: #999b9e;
+  color: #333;
   -webkit-transition: color 0.3s ease-in;
   -moz-transition: color 0.3s ease-in;
   -o-transition: color 0.3s ease-in;
@@ -1301,7 +1300,7 @@ footer {
   width: 100%;
   background: #B77E11;
   padding: 50px 0;
-  margin: 6px 0 0 0;
+  margin: 1px 0 0 0;
 }
 footer h3 {
   color: white;
@@ -1523,6 +1522,11 @@ footer .social a:hover i {
 .menu-mt{
   margin-top: 10px;
 }
+.menu-li-border li{
+  padding: 2px 10px 2px  0px;
+  border-right:2px solid;
+  color: #666 !important;
+}
 .products-img{
   width: 100% !important;
 }
@@ -1534,7 +1538,7 @@ footer .social a:hover i {
   position: fixed;
   z-index: 1000;
 }
-.test-bg{
+.products-bg{
   background-image: url(../imgs/body_bg.jpg) !important;
 }
 .contactus-p{
