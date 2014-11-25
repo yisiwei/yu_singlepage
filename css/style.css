@@ -14,7 +14,7 @@ body {
   text-align: center;
 }
 .heading h2 {
-  color: #66cdbd;
+  color: #fff;
   font-size: 1.875em;
   font-weight: 400;
   margin: 0;
@@ -375,7 +375,6 @@ section.works {
   width: 100%;
   background: #f2f2f2;
   padding: 50px 0;
-  border-bottom: 1px solid #e7e7e7;
   border-top: 1px solid #e7e7e7;
 }
 section.works .large-6.element {
@@ -1271,15 +1270,15 @@ section.contact textarea {
   transition: all ease-in 0.3s;
 }
 section.contact textarea:focus {
-  background: #66cdbd;
+  background: #B77E11;
   color: white;
 }
 section.contact input[type="submit"] {
   background: none;
-  color: #66cdbd;
+  color: #fff;
   text-transform: uppercase;
   font-weight: 600;
-  border: 2px solid #66cdbd;
+  border: 2px solid #B77E11;
   -webkit-transition: color 0.2s ease-in, background 0.2s ease-in, border 0.2s ease-in;
   -moz-transition: color 0.2s ease-in, background 0.2s ease-in, border 0.2s ease-in;
   -o-transition: color 0.2s ease-in, background 0.2s ease-in, border 0.2s ease-in;
@@ -1291,18 +1290,18 @@ section.contact input[type="submit"] {
   font-size: 1.125em;
 }
 section.contact input[type="submit"]:hover {
-  background: #66cdbd;
+  background: #B77E11;
   color: white;
-  border: 2px solid #66cdbd;
+  border: 2px solid #B77E11;
 }
 
 /*Footer*/
 footer {
   float: left;
   width: 100%;
-  background: #66cdbd;
+  background: #B77E11;
   padding: 50px 0;
-  margin: 50px 0 0 0;
+  margin: 6px 0 0 0;
 }
 footer h3 {
   color: white;
@@ -1529,4 +1528,15 @@ footer .social a:hover i {
 }
 .products-wel{
   padding-top: 5px !important;
+}
+/*固定导航条*/
+.header-fiexd{
+  position: fixed;
+  z-index: 1000;
+}
+.test-bg{
+  background-image: url(../imgs/body_bg.jpg) !important;
+}
+.contactus-p{
+  color: #000 !important;
 }
