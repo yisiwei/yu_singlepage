@@ -1,0 +1,8 @@
+/*CSS Flip Fallback*/
+.no-csstransforms3d .flipper:hover .back {
+  z-index: 2;
+}
+
+.no-csstransforms3d .mobileMenuIcon {
+  display: none;
+}
