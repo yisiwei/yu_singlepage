@@ -1269,10 +1269,10 @@ section.contact textarea {
   transition: all ease-in 0.3s;
 }
 section.contact textarea:focus {
-  background: #B77E11;
-  color: white;
+  background: #fff;
+  color: #666;
 }
-section.contact input[type="submit"] {
+section.contact input[type="button"] {
   background: none;
   color: #fff;
   text-transform: uppercase;
@@ -1288,7 +1288,7 @@ section.contact input[type="submit"] {
   margin: 20px 0 0 0;
   font-size: 1.125em;
 }
-section.contact input[type="submit"]:hover {
+section.contact input[type="button"]:hover {
   background: #B77E11;
   color: white;
   border: 2px solid #B77E11;
@@ -1634,7 +1634,7 @@ footer .social a:hover i {
   font-weight: bolder;
 }
 .products-feature {
-  margin-top: 180px !important;
+  margin-top: 160px !important;
 }
 .products-feature h4 {
   color: #7d5d30;
@@ -1694,4 +1694,8 @@ background-color: #d0a851 !important;
 }
 .wmw{
   min-width: 980px !important;
+}
+.products-detailimg{
+  width: 386px !important;
+  height: 294px !important;
 }
