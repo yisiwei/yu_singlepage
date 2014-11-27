@@ -1692,3 +1692,6 @@ background-color: #d0a851 !important;
     background-color: #d0a851 !important;
     text-decoration: none;
 }
+.wmw{
+  min-width: 980px !important;
+}
