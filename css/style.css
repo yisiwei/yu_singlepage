@@ -1535,6 +1535,7 @@ footer .social a:hover i {
 }
 /*固定导航条*/
 .header-fiexd{
+  height: 156px;
   position: fixed;
   z-index: 1000;
 }
@@ -1545,7 +1546,7 @@ footer .social a:hover i {
   color: #000 !important;
 }
 .banner-top{
-  margin-top: 94px !important;
+  margin-top: 156px !important;
 }
 /*产品详情*/
 .container{
@@ -1699,3 +1700,32 @@ background-color: #d0a851 !important;
   width: 386px !important;
   height: 294px !important;
 }
+/*订单*/
+.detail-table td{
+  border-top: none !important;
+}
+.detail-table-td{
+  text-align: right;
+  vertical-align: inherit;
+}
+/*滚动*/
+.box{ margin:0 auto;}
+.bcon{ width:260px; }
+.bcon h1{ border-bottom:1px solid #eee; padding:0 10px;}
+.bcon h1 b{ font:bold 14px/40px '宋体'; border-top:2px solid #7d5d30; padding:0 8px; margin-top:-1px; display:inline-block;}
+
+.list_lh{ height:400px; overflow:hidden;}
+.list_lh ul{
+  list-style-type: none;
+  padding-left: 0px !important;
+}
+.list_lh li{ padding:10px;}
+.list_lh li.lieven{ background:#F0F2F3;}
+.list_lh li p{ height:24px; line-height:24px;}
+.list_lh li p a{ float:left;}
+.list_lh li p em{ width:80px; font:normal 12px/24px Arial; color:#FF3300; float:right; display:inline-block;}
+.list_lh li p span{ color:#999; float:right;}
+.list_lh li p a.btn_lh{ background:#28BD19; height:17px; line-height:17px; color:#fff; padding:0 5px; margin-top:4px; display:inline-block; float:right;}
+.btn_lh:hover{ color:#fff; text-decoration:none;}
+
+.btm p{ font:normal 12px/24px 'Microsoft YaHei'; text-align:center;}
